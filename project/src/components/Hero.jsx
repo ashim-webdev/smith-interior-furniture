@@ -93,7 +93,7 @@ export default function Hero() {
                 </a>
               </div>
 
-              <div className="flex items-center gap-3 justify-center lg:justify-start">
+              <div className="flex items-center gap-3 justify-center lg:justify-start lg:mt-4">
                 <a href='#gallery' className="bg-white text-teal-700 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-teal-50 transition-all duration-200 flex items-center gap-2 hover:gap-4 whitespace-nowrap">
                   Gallery <ArrowRight size={14} />
                 </a>

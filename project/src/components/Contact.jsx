@@ -89,8 +89,8 @@ const onSubmit = async (data) => {
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      details: '+234 703 718 9416',
-      link: 'tel:+2347037189416',
+      details: '+234 708 533 6695',
+      link: 'tel:+2347085336695',
     },
     {
       icon: <MapPin size={24} />,

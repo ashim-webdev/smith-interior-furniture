@@ -140,11 +140,11 @@ export default function Footer() {
               Client Concierge
             </h4>
             <div className="flex flex-col gap-4 text-xs text-slate-100 font-semibold" id="footer-contact-details">
-              <a href="tel:+2347037189416" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="tel:+2347085336695" className="flex items-center gap-2 hover:text-white transition-colors">
                 <div className="w-7 h-7 rounded bg-white/5 flex items-center justify-center text-brand-500 shrink-0">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                <span>+234 703 718 9416</span>
+                <span>+234 708 533 6695</span>
               </a>
 
               <a href="mailto:ojukuroweilayefa@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
