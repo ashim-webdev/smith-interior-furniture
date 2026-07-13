@@ -31,65 +31,65 @@ import Image11 from "../images/image11.avif"
 const products = [
   {
     image: Image1,
-    title: "Wooden Bunk Bed",
+    title: "Regal Walnut Bunk Suite",
     description:
-      "Crafted with premium brown upholstery and a sculpted silhouette for exceptional comfort and timeless elegance.",
+      "A premium solid-wood bunk bed featuring a rich walnut finish, reinforced craftsmanship, and a space-efficient design that brings elegance and comfort to modern family bedrooms.",
     price: "₦285,000",
     tag: "Best Seller",
   },
   {
     image: Image2,
-    title: "King Sized Bed",
+    title: "Imperial King Bedroom Collection",
     description:
-      "Minimalist Scandinavian design featuring solid oak construction and refined craftsmanship for modern interiors.",
+      "An exquisitely crafted king-size bed with a refined contemporary silhouette, premium hardwood construction, and a luxurious finish designed for sophisticated master bedrooms.",
     price: "₦289,600",
     tag: "New Arrival",
   },
   {
     image: Image4,
-    title: "Wardrobe",
+    title: "Prestige Grand Wardrobe",
     description:
-      "A luxurious twin table designed with plush cushioning and sophisticated detailing for premium living spaces.",
+      "A spacious luxury wardrobe with multiple storage compartments, elegant wood grain detailing, and a timeless finish that combines beauty with everyday functionality.",
     price: "₦312,300",
     tag: "Premium Collection",
   },
   {
     image: Image5,
-    title: "Wardrobe",
+    title: "Signature Executive Wardrobe",
     description:
-      "Experience superior luxury twin table with ergonomic support, quality wood, and contemporary styling.",
+      "Designed for refined interiors, this executive wardrobe offers generous hanging space, organized shelving, and premium craftsmanship wrapped in a sleek contemporary design.",
     price: "₦234,200",
     tag: "Customer Favorite",
   },
   {
     image: Image7,
-    title: "Leaving Room Center Table",
+    title: "Luxe Heritage Coffee Table",
     description:
-      "Featuring a stunning dark coffee top and elegant wooden frame, designed to elevate modern interiors.",
-    price: "89,800",
+      "A statement center table crafted with a premium wooden frame and an elegant tabletop, adding warmth, sophistication, and timeless character to luxury living spaces.",
+    price: "₦89,800",
     tag: "Luxury Edition",
   },
   {
     image: Image9,
-    title: "Gray Couch",
+    title: "Ashford Luxury Lounge Sofa",
     description:
-      "An exquisite dining set combining premium materials, refined finishes, and exceptional durability.",
+      "A sophisticated gray sofa upholstered in premium fabric, offering exceptional comfort, generous seating, and a refined design that complements contemporary living rooms.",
     price: "₦200,000",
     tag: "Limited Stock",
   },
   {
     image: Image10,
-    title: "Luxury Wardrobe",
+    title: "Royal Estate Wardrobe",
     description:
-      "Flexible luxury leather couch designed for spacious living rooms with unmatched comfort and sophistication.",
+      "An expansive luxury wardrobe featuring premium wood construction, refined finishes, and intelligently designed storage for an elegant and organized bedroom experience.",
     price: "₦130,000",
     tag: "Editor's Choice",
   },
   {
     image: Image11,
-    title: "Dark Green Luxury Couch",
+    title: "Emerald Royale Sofa",
     description:
-      "Contemporary marble table solution blending elegant aesthetics with practical organization for luxury homes.",
+      "An elegant dark green luxury sofa upholstered with premium materials, featuring plush cushioning, deep seating, and a sophisticated design that transforms any living space into a statement of luxury.",
     price: "₦540,000",
     tag: "Exclusive Design",
   },

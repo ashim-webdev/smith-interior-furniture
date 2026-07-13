@@ -46,13 +46,13 @@ export default function Header() {
         >
           {/* Logo */}
           <div className="flex items-center gap-2 flex-shrink-0">
-            <div className="hidden lg:flex w-43 rounded-lg items-center justify-center">
+            <a href='#home' className="hidden lg:flex w-43 rounded-lg items-center justify-center">
               <img src='/smithFullLogo.svg' loading="lazy" alt='Smith furniture logo' />
-            </div>
+            </a>
 
-            <div className="lg:hidden w-8 rounded-lg flex items-center justify-center">
-              <img src='/smithRealLogoSVG.svg' loading="lazy" alt='Smith furniture logo' />
-            </div>
+            <a href='/#home' className="lg:hidden w-8 rounded-lg flex items-center justify-center">
+              <img src='/smithRealLogoSVG.svg' loading='lazy' alt='Smith furniture logo' />
+            </a>
           </div>
 
           {/* Desktop links */}

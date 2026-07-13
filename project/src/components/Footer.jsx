@@ -73,19 +73,10 @@ export default function Footer() {
           
           {/* COL 1: LOGO & ABOUT */}
           <div className="flex flex-col gap-6" id="footer-brand-column">
-            {/* <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-white rounded-xl flex items-center justify-center">
-                <span className="text-teal-700 font-black text-sm">F</span>
-              </div>
-              <span className="text-2xl font-black">
-                Furnish<span className="text-teal-300">.</span>
-              </span>
-            </div> */}
-
             <div className="flex items-center gap-2.5 group cursor-pointer">
-              <span className='w-45 bg-white mb-2 py-1 px-2 rounded-full'>
+              <a href='#home' className='w-45 bg-white mb-2 py-1 px-2 rounded-full'>
                 <img src='/smithLogo.png' loading="lazy" alt='Logo'  />
-              </span>
+              </a>
             </div>
             
             <p className=" text-slate-100 text-xs font-semibold leading-relaxed max-w-xs">
@@ -97,7 +88,7 @@ export default function Footer() {
               <a href="https://www.tiktok.com/@layefaojukurowei?_r=1&_t=ZS-97zoH5kwsIn" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
                 <FaTiktok className="w-4 h-4" />
               </a>
-              
+
               <a href="https://x.com/ojsmithinterior?s=11" aria-label="SunBeam Facebook Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
                 <FaXTwitter className="w-4 h-4" />
               </a>
