@@ -33,13 +33,13 @@ export function CtaBanner() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="tel:+2347037189416"
+                href="tel:+2347085336695"
                 className="flex items-center gap-3 bg-white text-brand-600 font-700 px-8 py-4 rounded-2xl hover:bg-blue-50 transition-all duration-300 shadow-float whitespace-nowrap"
               >
                 <div className='animate-UpDown'>
                   <Phone className="w-5 h-5" />
                 </div>
-                +234 703 718 9416
+                +234 708 533 6695
               </a>
               <a
                 href="#collection"
