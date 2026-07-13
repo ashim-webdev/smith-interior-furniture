@@ -1,5 +1,9 @@
 import { Sparkles, ArrowRight, Phone, Mail, MapPin, Pin } from 'lucide-react';
-import { FaWhatsapp, FaFacebook,  } from "react-icons/fa";
+import {
+  FaXTwitter,
+  FaInstagram,
+  FaTiktok,
+} from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion"
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
 
@@ -80,7 +84,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-2.5 group cursor-pointer">
               <span className='w-45 bg-white mb-2 py-1 px-2 rounded-full'>
-                <img src='/smithLogo.png' alt='Logo'  />
+                <img src='/smithLogo.png' loading="lazy" alt='Logo'  />
               </span>
             </div>
             
@@ -90,13 +94,18 @@ export default function Footer() {
 
             {/* Social rows */}
             <div className="flex items-center gap-3 text-slate-100" id="footer-social-row">
-              <a href="https://www.facebook.com/share/1BYD4chhVR/" aria-label="SunBeam Facebook Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
-                <FaFacebook className="w-4 h-4" />
+              <a href="https://www.tiktok.com/@layefaojukurowei?_r=1&_t=ZS-97zoH5kwsIn" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+                <FaTiktok className="w-4 h-4" />
+              </a>
+              
+              <a href="https://x.com/ojsmithinterior?s=11" aria-label="SunBeam Facebook Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+                <FaXTwitter className="w-4 h-4" />
               </a>
 
-              <a href="#" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
-                <FaWhatsapp className="w-4 h-4" />
+              <a href="https://www.instagram.com/ojsmithinteriors?utm_source=qr" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+                <FaInstagram className="w-4 h-4" />
               </a>
+
             </div>
           </div>
 
@@ -147,18 +156,18 @@ export default function Footer() {
                 <span>+234 703 718 9416</span>
               </a>
 
-              <a href="mailto:sunbeamcleaningservices022@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="mailto:ojukuroweilayefa@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
                 <div className="w-7 h-7 rounded bg-white/5 flex items-center justify-center text-brand-500 shrink-0">
                   <Mail className="w-3.5 h-3.5" />
                 </div>
-                <span className='line-clamp-1'>sunbeamcleaningservices022@gmail.com</span>
+                <span className='line-clamp-1'>ojukuroweilayefa@gmail.com</span>
               </a>
 
               <div className="flex items-center gap-2">
                 <div className="w-7 h-7 rounded bg-white/5 flex items-center justify-center text-brand-500 shrink-0">
                   <MapPin className="w-3.5 h-3.5" />
                 </div>
-                <span>Sahara, Majia plaza gwarimpa, Abuja.</span>
+                <span>furniture market water board line (Kugbo) Abuja, Nigeria.</span>
               </div>
             </div>
           </div>

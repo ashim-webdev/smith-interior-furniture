@@ -17,6 +17,9 @@ import TVWall8 from "../images/TVWall8.jpg"
 import TVWall9 from "../images/TVWall9.avif"
 import TVWall10 from "../images/TVWall10.jpg"
 
+import Image6 from "../images/image6.jpg"
+import Image8 from "../images/image8.jpg" 
+
 
 
 const inspirations = [
@@ -42,13 +45,13 @@ const inspirations = [
     id: 4,
     title: "Built-In Entertainment Center",
     tag: "Custom Installation",
-    image: TVWall4,
+    image: Image6,
   },
   {
     id: 5,
     title: "Minimalist TV Console Wall",
     tag: "Modern Living",
-    image: TVWall5i,
+    image: Image8,
   },
   {
     id: 6,
@@ -201,6 +204,7 @@ export default function Inspiration() {
                     <img
                       src={item.image}
                       alt={item.title}
+                      loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     />
 
@@ -236,6 +240,7 @@ export default function Inspiration() {
                     <img
                       src={item.image}
                       alt={item.title}
+                      loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     />
 

@@ -45,6 +45,7 @@ export default function About() {
                 <img
                   src={leavingRoom}
                   alt="Cleaning supplies"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -67,6 +68,7 @@ export default function About() {
                 <img
                   src={TVWall1}
                   alt="Mopping floor"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -131,6 +133,7 @@ export default function About() {
                 <img
                   src={TVWall2}
                   alt="Mopping floor"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -140,6 +143,7 @@ export default function About() {
                 <img
                   src={TVWall3}
                   alt="Mopping floor"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -190,6 +190,7 @@ function ProductCard({ product }) {
         <img
           src={product.image}
           alt={product.name}
+          loading="lazy"
           className="w-full h-full bg-emerald-50 object-cover transition-all duration-700 group-hover:scale-110"
         />
 

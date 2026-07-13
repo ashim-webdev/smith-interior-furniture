@@ -47,11 +47,11 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center gap-2 flex-shrink-0">
             <div className="hidden lg:flex w-43 rounded-lg items-center justify-center">
-              <img src='/smithFullLogo.svg' alt='Smith furniture logo' />
+              <img src='/smithFullLogo.svg' loading="lazy" alt='Smith furniture logo' />
             </div>
 
             <div className="lg:hidden w-8 rounded-lg flex items-center justify-center">
-              <img src='/smithRealLogoSVG.svg' alt='Smith furniture logo' />
+              <img src='/smithRealLogoSVG.svg' loading="lazy" alt='Smith furniture logo' />
             </div>
           </div>
 

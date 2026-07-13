@@ -282,6 +282,7 @@ export default function Testimonials() {
                   <img
                     src={t.image}
                     alt={t.name}
+                    loading="lazy"
                     className={`w-11 h-11 rounded-full object-cover border-2 ${
                       t.featured
                         ? "border-teal-400"

@@ -18,66 +18,76 @@ import tableBrown from "../images/tableBrown.png"
 import goldCouch from "../images/goldCouch.png"
 import gray from "../images/gray.avif";
 
+import Image1 from "../images/image1.jpg"
+import Image2 from "../images/image2.jpg"
+import Image3 from "../images/image3.jpg"
+import Image4 from "../images/image4.jpg"
+import Image5 from "../images/image5.jpg"
+import Image7 from "../images/image7.jpg"
+import Image9 from "../images/image9.jpg"
+import Image10 from "../images/image10.jpg"
+import Image11 from "../images/image11.avif"
+
 const products = [
   {
-    image: chair,
-    title: "Luna Brown Lounge Chair",
+    image: Image1,
+    title: "Wooden Bunk Bed",
     description:
       "Crafted with premium brown upholstery and a sculpted silhouette for exceptional comfort and timeless elegance.",
     price: "₦285,000",
     tag: "Best Seller",
   },
   {
-    image: hoverChair,
-    title: "Nordic Oak Accent Chair",
+    image: Image2,
+    title: "King Sized Bed",
     description:
       "Minimalist Scandinavian design featuring solid oak construction and refined craftsmanship for modern interiors.",
-    price: "₦320,000",
+    price: "₦289,600",
     tag: "New Arrival",
   },
   {
-    image: tableBrown,
-    title: "Elegant Twin Table",
+    image: Image4,
+    title: "Wardrobe",
     description:
       "A luxurious twin table designed with plush cushioning and sophisticated detailing for premium living spaces.",
-    price: "₦650,000",
+    price: "₦312,300",
     tag: "Premium Collection",
   },
   {
-    image: twinTable,
-    title: "Aurora Re-Adjustable Twin Table ",
+    image: Image5,
+    title: "Wardrobe",
     description:
       "Experience superior luxury twin table with ergonomic support, quality wood, and contemporary styling.",
-    price: "₦410,000",
+    price: "₦234,200",
     tag: "Customer Favorite",
   },
   {
-    image: lamp,
-    title: "Milano Dark Coffee Lamp",
+    image: Image7,
+    title: "Leaving Room Center Table",
     description:
       "Featuring a stunning dark coffee top and elegant wooden frame, designed to elevate modern interiors.",
-    price: "₦220,000",
+    price: "89,800",
     tag: "Luxury Edition",
   },
   {
-    image: dinningTable,
-    title: "Prestigious Dining Collection",
+    image: Image9,
+    title: "Gray Couch",
     description:
       "An exquisite dining set combining premium materials, refined finishes, and exceptional durability.",
-    price: "₦890,000",
+    price: "₦200,000",
     tag: "Limited Stock",
   },
   {
-    image: goldCouch,
-    title: "Luxury Leather Couch",
+    image: Image10,
+    title: "Luxury Wardrobe",
     description:
       "Flexible luxury leather couch designed for spacious living rooms with unmatched comfort and sophistication.",
-    price: "₦1,150,000",
+    price: "₦130,000",
     tag: "Editor's Choice",
   },
   {
-    image: tableWhite,
-    title: "Elite Marble Table",
+    image: Image11,
+    title: "Dark Green Luxury Couch",
     description:
       "Contemporary marble table solution blending elegant aesthetics with practical organization for luxury homes.",
     price: "₦540,000",
@@ -139,6 +149,7 @@ export default function FurnitureCarousel() {
                   <img
                     src={product.image}
                     alt={product.title}
+                    loading="lazy"
                     className="w-100 h-[320px] object-cover transition-transform duration-700 group-hover:scale-110
                     "
                   />

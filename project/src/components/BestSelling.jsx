@@ -53,6 +53,7 @@ function BestSellerCard({ item }) {
         <img
           src={item.image}
           alt={item.name}
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
         />
         <span className={`absolute top-4 left-4 ${item.tagColor} text-white text-xs font-bold px-3 py-1 rounded-full`}>

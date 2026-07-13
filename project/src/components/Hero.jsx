@@ -1,6 +1,11 @@
 import { ArrowRight, Star } from 'lucide-react';
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import {
+  FaXTwitter,
+  FaInstagram,
+  FaTiktok,
+} from "react-icons/fa6";
 import chair from "../images/Chair.jpg"
 import hoverChair from "../images/hoverChair.webp"
 // import pinkChairR from "../images/pinkChairR.png"
@@ -17,7 +22,7 @@ export default function Hero() {
 
   return (
     <section ref={heroRef} id="home" className="pt-20 lg:pt-24 px-4 sm:px-6 lg:px-8 pb-6 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="relative max-w-7xl mx-auto">
         {/* Hero Card */}
         <div
           className="relative overflow-hidden rounded-[2.5rem] bg-[#0B5D6E]"
@@ -73,7 +78,22 @@ export default function Hero() {
               <p className="mt-4 text-white/70 text-sm leading-relaxed max-w-xs">
                 Explore our curated collection of timeless contemporary pieces designed to elevate every living space.
               </p>
-              <div className="flex items-center gap-3 mt-6 justify-center lg:justify-start">
+
+              <div className="lg:hidden my-4 flex justify-center items-center gap-3 text-slate-100" id="footer-social-row">
+                <a href="https://www.tiktok.com/@layefaojukurowei?_r=1&_t=ZS-97zoH5kwsIn" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+                  <FaTiktok className="w-4 h-4" />
+                </a>
+                
+                <a href="https://x.com/ojsmithinterior?s=11" aria-label="SunBeam Facebook Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+                  <FaXTwitter className="w-4 h-4" />
+                </a>
+
+                <a href="https://www.instagram.com/ojsmithinteriors?utm_source=qr" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+                  <FaInstagram className="w-4 h-4" />
+                </a>
+              </div>
+
+              <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <a href='#gallery' className="bg-white text-teal-700 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-teal-50 transition-all duration-200 flex items-center gap-2 hover:gap-4 whitespace-nowrap">
                   Gallery <ArrowRight size={14} />
                 </a>
@@ -88,6 +108,7 @@ export default function Hero() {
               <img
                 src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=900"
                 alt="Luxury White Sofa"
+                loading="lazy"
                 className="sm:block hidden w-full max-w-2xl object-cover object-center rounded-2xl"
                 style={{ height: '380px', objectPosition: 'center 30%' }}
               />
@@ -96,6 +117,7 @@ export default function Hero() {
                 <img
                   src={gray}
                   alt="Luxury chair"
+                  loading="lazy"
                   className="w-full h-110 max-w-2xl object-cover object-center rounded-2xl"
                   style={{ objectPosition: 'center 30%' }}
                 />
@@ -103,6 +125,7 @@ export default function Hero() {
                 <motion.img
                   src={pinkChairR}
                   alt="Luxury chair"
+                  loading="lazy"
                   animate={
                     isInView
                       ? {
@@ -127,6 +150,7 @@ export default function Hero() {
                 <motion.img
                   src={hoverChair}
                   alt="Luxury chair"
+                  loading="lazy"
                   animate={
                     isInView
                       ? {
@@ -181,6 +205,21 @@ export default function Hero() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Social rows */}
+        <div className="absolute z-999 bottom-0 left-0 right-0 mb-6 hidden lg:flex justify-center items-center gap-3 text-slate-100" id="footer-social-row">
+          <a href="https://www.tiktok.com/@layefaojukurowei?_r=1&_t=ZS-97zoH5kwsIn" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+            <FaTiktok className="w-4 h-4" />
+          </a>
+          
+          <a href="https://x.com/ojsmithinterior?s=11" aria-label="SunBeam Facebook Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+            <FaXTwitter className="w-4 h-4" />
+          </a>
+
+          <a href="https://www.instagram.com/ojsmithinteriors?utm_source=qr" aria-label="SunBeam WhatsApp Link" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all">
+            <FaInstagram className="w-4 h-4" />
+          </a>
         </div>
       </div>
     </section>

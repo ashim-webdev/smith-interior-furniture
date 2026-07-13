@@ -72,6 +72,7 @@ export default function SuperSale() {
               <img
                 src={softChair}
                 alt="Sale Sofa"
+                loading="lazy"
                 className="w-50 object-cover"
                 style={{ minHeight: '300px' }}
               />

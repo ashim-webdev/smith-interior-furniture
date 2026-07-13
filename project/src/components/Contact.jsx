@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-// import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import { Mail, Phone, MapPin, Send, Smartphone, Clock, SendHorizonal, Sparkle } from 'lucide-react';
 
 // Toast
@@ -54,10 +54,10 @@ const Contact = () => {
 const onSubmit = async (data) => {
   try {
     const result = await emailjs.send(
-      'service_qvc4f3i',
-      'template_jtac926',
+      'service_wi1k3mo',
+      'template_dronk4o',
       data,
-      'dDJBQ2m3Fu5Ha8woq'
+      'n70l-TB6b1z9TyfPy'
     );
 
     if (result.status === 200) {
@@ -65,7 +65,7 @@ const onSubmit = async (data) => {
         icon: <SendHorizonal className="w-5 h-5 text-white" />,
       });
       setTimeout(() => {
-        toast.success("I will respond within 24 hours.", {
+        toast.success("We will respond within 24 hours.", {
           icon: <Clock className="w-5 h-5 text-white" />,
         });
       }, 2000)
@@ -74,7 +74,7 @@ const onSubmit = async (data) => {
       toast.error("Something went wrong. Please try again later.");
     }
   } catch (error) {
-    toast.error("Something might be wrong... please contact me on What'sApp");
+    toast.error("Something might be wrong... please message us on What'sApp");
   }
 };
 
@@ -83,8 +83,8 @@ const onSubmit = async (data) => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      details: 'ashimgab@gmail.com',
-      link: 'mailto:ashimgab@gmail.com?subject=Project%20Inquiry&body=Hello%20AshimDev%20team,%0D%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.'
+      details: 'ojukuroweilayefa@gmail.com',
+      link: 'mailto:ojukuroweilayefa@gmail.com?subject=Project%20Inquiry&body=Hello%20AshimDev%20team,%0D%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.'
     },
     {
       icon: <Phone size={24} />,
@@ -95,8 +95,8 @@ const onSubmit = async (data) => {
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      details: 'Federal Capital Territory (F.C.T) Abuja, NIGERIA',
-      link: 'https://maps.app.goo.gl/bJk6Y2kds7EWLV9J8?g_st=awb '
+      details: 'furniture market water board line (Kugbo) Abuja, Nigeria.',
+      // link: 'https://maps.app.goo.gl/bJk6Y2kds7EWLV9J8?g_st=awb '
     }
   ];
 
